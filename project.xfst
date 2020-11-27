@@ -1,0 +1,21 @@
+clear stack
+
+read lexc project.lexc
+define Lexicon ;
+
+
+define BackVowel [ a | o | u ] ;
+
+define FrontVowelOrBoundary [ ä | ö | y | %# ] ;
+
+define SetBackVowel A -> a, O -> o || BackVowel ~$FrontVowelOrBoundary _ ;
+
+define SetFrontVowel A -> ä, O -> ö || _ ;
+
+define RemoveBoundaries %# -> 0 ;
+
+define LexiconWithRules Lexicon .o. SetBackVowel .o. SetFrontVowel .o. RemoveBoundaries ;
+
+regex LexiconWithRules ;
+
+print random-lower

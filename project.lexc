@@ -1,0 +1,26 @@
+Multichar_Symbols
+        +Abe +Ade +Ill +Ine +Ela +Ins
+        +mA
+        ! TO DO: Add more multicharacter symbols as needed
+
+LEXICON Root
+  kerto MA ;
+  ui MA ;
+  sure MA ;
+  hyppää MA ;
+  tule MA ;
+  häiritse MA ;
+  rakasta MA ;
+
+LEXICON MA
++MA:mA          Case ;
+
+LEXICON Case
++Ade:llA       # ;
++Ine:ssA       # ;
++Ela:stA       # ;
++Abe:ttA     # ;
++Ins:n       # ;
++Ill:An        # ;
+
+END
