@@ -5,15 +5,20 @@ Multichar_Symbols
 
 LEXICON Root
   kerto MA ;
-  ui MA ;
-  sure MA ;
-  hyppää MA ;
+  saa MA ;
+  nouse MA ;
   tule MA ;
+  sure MA ;
+  mene MA ;
+  hyppää MA ;
+  tarjoa MA ;
   häiritse MA ;
-  rakasta MA ;
+  pimene MA ;
+
 
 LEXICON MA
-+MA:mA          Case ;
++MA: mA          Case ;
++MA: mA         # ;
 
 LEXICON Case
 +Ade:llA       # ;
