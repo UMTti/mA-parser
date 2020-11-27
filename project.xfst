@@ -6,15 +6,13 @@ define Lexicon ;
 
 define BackVowel [ a | o | u ] ;
 
-define FrontVowelOrBoundary [ ä | ö | y | %# ] ;
+define FrontVowel [ ä | ö | y ] ;
 
-define SetBackVowel A -> a, O -> o || BackVowel ~$FrontVowelOrBoundary _ ;
+define SetBackVowel A -> a, O -> o || BackVowel ~$FrontVowel _ ;
 
 define SetFrontVowel A -> ä, O -> ö || _ ;
 
-define RemoveBoundaries %# -> 0 ;
-
-define LexiconWithRules Lexicon .o. SetBackVowel .o. SetFrontVowel .o. RemoveBoundaries ;
+define LexiconWithRules Lexicon .o. SetBackVowel .o. SetFrontVowel ;
 
 regex LexiconWithRules ;
 
