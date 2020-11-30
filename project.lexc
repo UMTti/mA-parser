@@ -21,11 +21,20 @@ LEXICON MA
 +MA: mA         # ;
 
 LEXICON Case
-+Ade:llA       # ;
-+Ine:ssA       # ;
-+Ela:stA       # ;
++Ade:llA       Possession ;
++Ine:ssA       Possession ;
++Ela:stA       Possession ;
 +Abe:ttA     # ;
-+Ins:n       # ;
++Ins:n       #  ;
 +Ill:An        # ;
+
+LEXICON Possession
++Yks1:ni      # ;
++Yks2:si       # ;
++Yks3:nsA       # ;
++Mon1:mme     # ;
++Mon2:nne       # ;
++Mon3:nsA        # ;
+                # ;
 
 END
