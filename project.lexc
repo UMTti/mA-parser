@@ -1,6 +1,6 @@
 Multichar_Symbols
         +Abe +Ade +Ill +Ine +Ela +Ins
-        +mA
+        +mA +Yks1 +Yks2 +Yks3 +Mon1 +Mon2 +Mon3
         ! TO DO: Add more multicharacter symbols as needed
 
 LEXICON Root
@@ -18,14 +18,14 @@ LEXICON Root
 
 LEXICON MA
 +MA: mA          Case ;
-+MA: mA         # ;
++MA: mA         Possession ;
 
 LEXICON Case
 +Ade:llA       Possession ;
 +Ine:ssA       Possession ;
 +Ela:stA       Possession ;
 +Abe:ttA     # ;
-+Ins:n       #  ;
++Ins:n       # ;
 +Ill:An        # ;
 
 LEXICON Possession
